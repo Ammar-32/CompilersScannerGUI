@@ -93,9 +93,9 @@ namespace CompilersScannerGUI
                 {
                     for (int k = i + 1; k < len; k++)
                     {
-                        if (whiteSpacesCheck(chars[k]) || !Char.IsLetter(chars[k]) ||char.IsSeparator(chars[k]))
+                        if (whiteSpacesCheck(chars[k]) || !Char.IsLetter(chars[k]) || char.IsSeparator(chars[k]))
                         {
-                            i = k-1;
+                            i = k - 1;
                             break;
                         }
                         token += chars[k];
@@ -109,7 +109,7 @@ namespace CompilersScannerGUI
                         obj = new Token(token, "Identifier");
                     }
                 }
-                TokensList.Add(obj);
+              //  TokensList.Add(obj);
                 output += obj.ToString();
               
                 token = Empty;
@@ -118,11 +118,5 @@ namespace CompilersScannerGUI
            
             return output;
         }
-
-       /* public static List<Token> ScanToList()
-        {
-            Scan();
-            return TokensList; 
-        }*/
     }
 }

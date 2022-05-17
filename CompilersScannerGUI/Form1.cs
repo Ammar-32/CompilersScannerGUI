@@ -22,7 +22,7 @@ namespace CompilersScannerGUI
             else
             {
                 richTextBox1.Text = Scanner.Scan(textBox1.Text);
-                MessageBox.Show("Made By :" + "\n" + "Ammar Moataz 18P6278" + "\n" + "Ali Hesham 18P7355" + "\n" + "Ahmed Adham 18P9139" + "\n" + "Abdulrahman Saeed 18P8700" + "\n" + "Mohamed Mamdouh 18P8906" + "\n" + "Abdelrahman Tarek 18P7159");
+                MessageBox.Show("Made By :" + "\n" + "Ammar Moataz 18P6278" + "\n" + "Ali Hesham 18P7355" + "\n" + "Ahmed Adham 18P9139" + "\n");
             }
         }
 
