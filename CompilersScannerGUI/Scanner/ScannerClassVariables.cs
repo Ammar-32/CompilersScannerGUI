@@ -20,7 +20,7 @@ namespace CompilersScannerGUI
         static string[] ReservedWords = { "if", "then", "else", "end", "repeat", "until", "read", "write" };
         static char[] WhiteSpaces = { '\r', '\t', '\n', ' ' };
 
-        //static List<Token> TokensList = new List<Token>();
+        
 
         static string Empty = String.Empty;
     }
